@@ -1,0 +1,41 @@
+.killerPerks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.killerPerks-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.killerPerks-icon-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.perk-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.4);
+  padding: 20px 50px;
+  width: 100px;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: larger;
+  position: sticky;
+  top: 0;
+}
+.killer-para-section {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(10, 10, 10, 0.4);
+  user-select: none;
+}

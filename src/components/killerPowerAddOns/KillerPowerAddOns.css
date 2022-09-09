@@ -1,0 +1,39 @@
+.addons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.addons-img-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid white;
+  padding: 20px;
+  width: 100%;
+}
+.addons-para-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+.addons-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.4);
+  padding: 20px 50px;
+  width: 100px;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: larger;
+  position: sticky;
+  top: 0;
+  left: 50%;
+}

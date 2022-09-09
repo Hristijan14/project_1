@@ -1,0 +1,57 @@
+.killerCardDetails-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.killer-info-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.4);
+  padding: 20px 50px;
+  width: 100px;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  font-size: larger;
+}
+.killer-para-section {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(10, 10, 10, 0.4);
+  user-select: none;
+}
+.killer-power {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.power-img-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.power-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+h3 {
+  user-select: none;
+}
